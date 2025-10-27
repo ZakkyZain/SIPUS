@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Buku - SIPUS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+ <header class="header">
+  <div class="header-left">
+    <img src="image/logosipus2.png" alt="Logo SIPUS" class="logo-header">
+  </div>
+
+  <h1 class="header-title">Daftar Buku</h1>
+
+  <div class="header-right">
+    <img src="image/profile.png" alt="Profile" class="profile-icon">
+  </div>
+</header>
+
+
+  <main class="container">
+    <div class="search-container">
+      <input type="text" class="search-input" placeholder="Cari Buku...">
+      <button class="btn-search">Cari</button>
+    </div>
+
+    <div class="kategori-container">
+      <button class="kategori-btn active">Semua</button>
+      <button class="kategori-btn">Komik</button>
+      <button class="kategori-btn">Sosial & Ekonomi</button>
+      <button class="kategori-btn">Sejarah</button>
+      <button class="kategori-btn">Agama</button>
+      <button class="kategori-btn">Hukum & Politik</button>
+    </div>
+
+    <div class="book-grid">
+      <div class="book-card">
+        <a href="detail-buku.html?id=berserk-vol-1" class="book-cover-link"> 
+          <img src="https://assets.promediateknologi.id/crop/0x0:0x0/x/photo/p3/75/2024/10/11/Berserk-Young-Animal-Poplineid-3798718107.jpg" alt="Berserk" class="book-cover">
+        </a>
+        <h3 class="book-title">Berserk Vol. 1</h3>
+        <span class="read-more">Lihat selengkapnya</span>
+        <div class="book-category">Komik</div>
+      </div>
+
+      <div class="book-card">
+        <a href="detail-buku.html?id=steel-ball-run-vol-10" class="book-cover-link">
+          <img src="https://m.media-amazon.com/images/I/912WXxPgbTL._SY425_.jpg" alt="Steel Ball Run" class="book-cover">
+        </a>
+        <h3 class="book-title">Steel Ball Run Vol. 10 (JoJo's Bizarre Adventure Part 7)</h3>
+        <span class="read-more">Lihat selengkapnya</span>
+        <div class="book-category">Komik</div>
+      </div>
+
+       <div class="book-card">
+        <a href="detail-buku.html?id=seni-bersikap-bodo-amat" class="book-cover-link">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Sebuah-seni-untuk-bersikap-bodoh-amat.jpg" alt="Bersikap Bodo Amat" class="book-cover">
+        </a>
+        <h3 class="book-title">Sebuah Seni untuk Bersikap Bodo Amat</h3>
+        <span class="read-more">Lihat selengkapnya</span>
+        <div class="book-category">Pengembangan diri</div>
+      </div>
+
+    </div>
+  </main>
+</body>
+<script src="js/scripts.js"></script>
+</html>

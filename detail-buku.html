@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Buku - SIPUS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <img src="image/logosipus2.png" alt="Logo SIPUS" class="logo-header">
+        </div>
+
+        <h1 class="header-title">Detail Buku</h1>
+
+        <div class="header-right">
+            <img src="image/profile.png" alt="Profile" class="profile-icon">
+        </div>
+    </header>
+
+    <main class="container book-detail-container">
+        <div class="detail-wrapper">
+            <div class="left-column">
+                <img id="book-cover-large" src="" alt="Sampul Buku" class="book-cover-large">
+                
+                <button class="btn-pinjam">Pinjam</button>
+                <button class="btn-favorite">
+                    <i class="far fa-heart"></i>Favorite</button>
+                
+                <p class="lokasi-buku">Lokasi Buku: <span id="lokasi-buku-value"></span></p>
+            </div>
+            
+            <div class="right-column">
+                <h1 class="book-title-detail" id="book-title-detail"></h1>
+                
+                <div class="info-group">
+                    <p class="info-label">Penulis</p><p>: <span id="penulis-value"></span></p>
+                </div>
+                <div class="info-group">
+                    <p class="info-label">Penerbit</p><p>: <span id="penerbit-value"></span></p>
+                </div>
+                <div class="info-group">
+                    <p class="info-label">Tahun Terbit</p><p>: <span id="tahun-terbit-value"></span></p>
+                </div>
+                <div class="info-group">
+                    <p class="info-label">Kategori</p><p>: <span id="kategori-value"></span></p>
+                </div>
+                <div class="info-group">
+                    <p class="info-label">Status</p>
+                    <p class="status-value">: 
+                        <i id="status-icon" class="fas status-icon"></i> 
+                        <span id="status-tersedia" class=""></span>
+                    </p>
+                </div>
+                
+                <h2 class="deskripsi-title">Deskripsi :</h2>
+                
+                <p class="deskripsi-text" id="deskripsi-text"></p>
+            </div>
+        </div>
+        
+    </main>
+
+    <script src="js/scripts.js"></script> 
+</body>
+</html>
